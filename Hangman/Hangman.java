@@ -140,7 +140,7 @@ public class Hangman
          
          if(letterAlreadyIn)
          {
-            System.out.print("Oops!  You’ve already guessed that letter: ");
+            System.out.print("Oops!  Youâ€™ve already guessed that letter: ");
             
             for(int i=0; i<blanks.length; i++)
             {
@@ -192,4 +192,3 @@ public class Hangman
       	return secretArr; 
    	}    
 } 
-//program ends
